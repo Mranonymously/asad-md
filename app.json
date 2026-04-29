@@ -1,0 +1,21 @@
+{
+  "name": "Asad-MD",
+  "description": "Asad-MD WhatsApp bot made by AsadMD official",
+  "logo": "https://h.uguu.se/KsZZhDfs.jpeg",
+  "keywords": ["bot","Asad-MD","Asad-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the Asad-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
